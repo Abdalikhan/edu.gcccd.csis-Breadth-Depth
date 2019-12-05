@@ -8,8 +8,6 @@ public class BreadthTest {
 
 	@Test
 	public void testMain() {
-	//final String directory_LARGEST_SIZE;
-	//final String largestFile;
 	String rootDir = "/users/abdal/documents";
 	File root = new File(rootDir);
 	System.out.println("Finding largest file (Depth First)...");
@@ -20,7 +18,6 @@ public class BreadthTest {
 	String LARGEST_FILE;
 	assertTrue(depthLargest.equals(breadthLargest));
 	System.out.println("Files are the same!");
-	//assertTrue(fileSize.equals(FILE_SIZE));
 }
 
 	private void directory() {
